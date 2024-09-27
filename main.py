@@ -1,6 +1,7 @@
 import pymysql
 import pandas as pd
 import streamlit as st
+pymysql.install_as_MySQLdb() 
 
 # Function to establish a connection to the MySQL database
 def get_connection():
