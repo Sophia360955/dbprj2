@@ -24,6 +24,6 @@ def run_query(query):
 st.title("MySQL Data Viewer")
 
 if st.button("Load Data"):
-    query = "SELECT * FROM bookings;"  # Change the query as per your table
+    query = "SELECT * FROM employees;"  # Change the query as per your table
     data = run_query(query)
     st.write(data)
