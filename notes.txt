@@ -1,0 +1,23 @@
+# Initialize a new Git repository
+git init
+
+# Stage all changes for the initial commit
+git add .
+
+# Commit the staged changes
+git commit -m "Initial commit"
+
+# Add a remote repository
+git remote add origin https://github.com/yourusername/your-repository-name.git
+
+# Push the initial commit to the main branch
+git push -u origin main
+
+# Create or update the .gitignore file to ignore secrets.toml
+echo "secrets.toml" >> .gitignore
+
+# Stage the .gitignore file
+git add .gitignore
+
+# Commit the .gitignore file
+git commit -m "Add secrets.toml to .gitignore"
