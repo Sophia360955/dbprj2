@@ -8,7 +8,7 @@ git add .
 git commit -m "Initial commit"
 
 # Add a remote repository
-git remote add origin https://github.com/yourusername/your-repository-name.git
+git remote add origin https://github.com/Sophia360955/dbprj2.git
 
 # Push the initial commit to the main branch
 git push -u origin main
